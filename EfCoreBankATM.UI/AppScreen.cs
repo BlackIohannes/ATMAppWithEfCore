@@ -108,6 +108,7 @@ public class AppScreen
                                 accountService.Deposit(loginUser, depositAmount);
                                 break;
                             case "6":
+                                Console.Clear();
                                 Console.WriteLine($"Goodbye, {loginUser.Name}!\n");
                                 break;
                             default:
